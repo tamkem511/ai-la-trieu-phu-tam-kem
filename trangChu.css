@@ -1,0 +1,330 @@
+body{
+    padding:0;
+    margin: 0;
+    width:100%;
+    /* height:100px; */
+    /* background-color:red; */
+    background-image: url('img/4eb2720c14e549a39e193328071db7d1_AiLaTrieuPhu-min.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 620px;
+    position: absolute;
+}
+/* phần header */
+.header_title{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(36, 38, 151);
+    display: flex;
+    border-bottom: 10px solid rgb(124, 153, 235);
+}
+/* phần quay lại giao Diện và loa */
+.back_web-sounds{
+    position: absolute;
+    left: 150px;
+    top: 30px;
+}
+.back_giaoDien,
+.sound{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius:100% ;
+    border:5px solid rgb(124, 153, 235);
+}
+.back_giaoDien:hover,
+.sound:hover{
+    cursor: pointer;
+    transform: translateY(2px)
+}
+.back_giaoDien img,
+.sound img{
+    width: 50px;
+    height:50px;
+    text-align: center;
+}
+
+/* Phần đếm thời gian chạy */
+#countdown{
+    position: absolute;
+    width:200px;
+    height:140px;
+    border: rgb(124, 153, 235) 10px solid;
+    border-bottom: none;
+    left:500px;
+    text-align: center;
+    border-radius:100%;
+
+
+    font-size:100px;
+    font-weight: bold;
+    color:red;
+    position: relative;
+    top: 10px;
+}
+.tam_kem{
+    position: absolute;
+    display: flex;
+    left:545px;
+    top: 120px;
+}
+.tam_kem span{
+    font-size:15px;
+    font-weight: bold;
+    margin:0px 5px;
+}
+.tam_kem span:first-child{
+     color:red;
+}
+.tam_kem span:nth-child(2){
+    color:green;
+}
+.tam_kem span:nth-child(3){
+    color:tomato;
+}
+.tam_kem span:nth-child(4){
+    color:yellow;
+}
+.tam_kem span:nth-child(5){
+    color:rgb(205, 16, 230);
+}
+.tam_kem span:nth-child(6){
+    color:rgb(12, 237, 245);
+}
+
+/* phần trợ giúp */
+.use_help{
+    position: absolute;
+    top: 30px;
+    right:150px
+}
+.use_help button img{
+    width:50px;
+}
+.use_help button{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius:100% ;
+    border:5px solid rgb(124, 153, 235);
+}
+.use_help button:hover{
+    cursor: pointer;
+    transform: translateY(2px)
+}
+#help_half{
+    position: relative;
+    top: -5px;
+}
+
+/* Phần content */
+.content{
+    position: absolute;
+    width: 100%;
+    /* height: 120px; */
+    /* background-color:red; */
+    top: 450px;
+}
+#price{
+    position: absolute;
+    width: 170px;
+    left:20px;
+    height:100px;
+    background-color:rgb(36, 38, 151);
+    border: solid 5px aqua;
+    border-radius: 5px;
+    text-align:center;
+}
+#price span{
+    font-size:22px;
+    color:white;
+    position: relative;
+    top: 35px;
+}
+#question_answer{
+    position: absolute;
+    left:300px;
+    top: -30px;
+}
+.QS{
+    background-color:rgb(36, 38, 151);
+}
+.QS tr:first-child{
+    height:60px;
+}
+.QS tr:first-child td{
+    text-align: center;
+    font-size:18px;
+    font-weight: bold;
+    color:white;
+    width:300px;
+    border: 5px solid aqua;
+    border-radius: 10px;
+}
+.QS tr td{
+    text-align: center;
+    width:300px;
+    border:none;
+}
+.QS tr td button{
+    text-align: center;
+    font-size:18px;
+    font-weight: bold;
+    /* color:white; */
+    width:300px;
+    border: 5px solid aqua;
+    border-radius: 10px;
+}
+.QS tr td button:hover{
+    cursor: pointer;
+    transform: translateY(2px)
+}
+
+#start_or_noStart{
+    position: absolute;
+    width: 400px;
+    height:100px;
+    background-color: rgb(151, 36, 42);
+    border-radius: 10px;
+    text-align: center;
+    left:400px;
+    top: 250px;
+    border:5px solid rgb(17, 37, 37)
+}
+#start_or_noStart div{
+    margin:10px;
+}
+#start_or_noStart div button{
+    background-color:tomato;
+    color:white;
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.title_start_or_noStart{
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.start_or_no{
+    position: relative;
+    top: 20px;
+}
+
+/* phần số câu hỏi và số tiền */
+.countQuestion_price{
+    position:absolute;
+    right:20px;
+    width:200px;
+    height:300px;
+    border:5px solid aqua;
+    top: -160px;
+}
+.list_price{
+    /* margin:0px -10px; */
+    background-color:rgb(36, 38, 151);
+}
+.list_price tr{
+    width:70px;
+    height:20px;
+}
+.list_price tr td{
+    text-align: center;
+    width:100px;
+    color:aqua;
+    font-weight:bold;
+}
+.active{
+    background-color:greenyellow;
+}
+.now{
+    background-color:tomato;
+    color:red;
+}
+.wrong{
+    background-color:red;
+}
+
+/* phần trợ giúp từ khán giả trường quay */
+#renderHelpPeople{
+    position:absolute;
+    width:200px;
+    height:200px;
+    left:-760px;
+    top: 150px;
+    background-color:rergb(36, 38, 151);
+    border:5px solid aqua;
+    display:none;
+}
+ul.listAnswer{
+    display:flex;
+    position: relative;
+    /* top: 80px; */
+    left:-26px;
+}
+ul.listAnswer > li{
+    list-style: none;
+    font-size:18px;
+    font-weight: bold;
+    color:tomato;
+    margin:0px 15px;
+    height:100px;
+    background-color:red;
+    position: relative;
+}
+ul.listAnswer > li >a{
+    position: relative;
+    /* top: 80px; */
+    text-decoration: none;
+    color:white;
+}
+#answerA{
+    height:180px;
+}
+/* hiển thị câu trả lời từ người thân */
+#render_help_family{
+    position: absolute;
+    border:5px solid aqua;
+    border-radius: 100%;
+    left:-850px;
+    top: 200px;
+    display:none;
+    background-color:rgb(3, 58, 58);
+}
+#render_help_family img{
+    width:70px;
+    height:70px;
+    border-radius:100%;
+}
+#render_answer_help_family{
+    position: relative;
+    top: -25px;
+    left: -3px;
+    font-weight: bold;
+    color:rgb(247, 54, 54)
+}
+
+/* trợ giúp từ người đồng hành */
+#render_help_man{
+    position: absolute;
+    border:5px solid aqua;
+    /* border-radius: 100%; */
+    left:-750px;
+    top: 150px;
+    width:150px;
+    display:none;
+    background-color:rgb(3, 58, 58);
+}
+#render_help_man img{
+    width:70px;
+    height:70px;
+    border-radius:100%;
+}
+#render_answer_help_man{
+    position: relative;
+    top: -5px;
+    left: 2px;
+    font-weight: bold;
+    color:rgb(247, 54, 54);
+    width: 60px;
+}

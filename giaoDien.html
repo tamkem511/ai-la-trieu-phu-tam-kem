@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phạm Tiến Tâm</title>
+    <link rel="stylesheet" href="giaoDien.css">
+    <script type="text/javascript" src="giaoDien.js"></script>
+</head>
+<body onload="load()">
+    <!-- âm thanh -->
+    <audio autoplay loop>
+        <source src="sounds/giaoDien.mp3" type="audio/mpeg">
+    </audio>
+    <div class="formWEB">
+        
+           <!-- phần hiệu úng animation tiền rơi -->
+           <ul id="money_down">
+               <li>
+                   <img src="img/1f4b5.png">
+               </li>
+               <li>
+                   <img src="img/1f4b5.png">
+               </li>
+               <li>
+                   <img src="img/1f4b5.png">
+               </li>
+               <li>
+                   <img src="img/1f4b5.png">
+               </li>
+               <li>
+                   <img src="img/1f4b5.png">
+               </li>
+           </ul>
+
+           <div class="iconsMoneyGame">
+               <img id="money" src="img/money-bag-308983_640.png">
+           </div>
+
+
+           <!-- phần thao tác vào game -->
+           <div class="formControl">
+               <div class="btnControl">
+                  <a href="https://gamevui.vn/">
+                    <button class="btn">
+                        <img src="img/tay cam.png">
+                    </button>
+                  </a>
+               </div>
+               <div class="btnControl">
+                <a href="trangChu.html">
+                    <button class="btn">
+                        <img src="img/power.png">
+                    </button>
+                </a>
+               </div>
+               <div class="btnControl">
+                   <button class="btn" onclick="onSound()">
+                       <img src="img/loa1.png">
+                   </button>
+               </div>
+           </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trangChu.css">
+    <script type="text/javascript" src="trangChu.js"></script>
+    <title>Phạm Tiến Tâm</title>
+</head>
+<body>
+    <audio autoplay id="nhac_nen">
+        <source id="nhac_nen" src="sounds/nhac_nen.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="formWEB">
+        <!-- phân header -->
+         <div class="header_title">
+             <div class="back_web-sounds">
+                 <a href="giaoDien.html" style="text-decoration: none;">
+                     <button class="back_giaoDien">
+                          <img src="img/quay_lai_trang_chu.png">
+                     </button>
+                 </a>
+                 <button class="sound" onclick="timesSound()">
+                    <img src="img/loa1.png">
+                 </button>
+             </div>
+             <!-- phần đếm thời gian trả lời -->
+             <div id="countdown">
+                 30
+             </div>
+             <div class="tam_kem">
+                 <span>T</span>
+                 <span>A</span>
+                 <span>M</span>
+                 <span>K</span>
+                 <span>E</span>
+                 <span>M</span>
+             </div>
+
+             <div class="use_help">
+                 <!-- trợ giúp từ khán giải trường quay -->
+                 <button id="help_people" onclick="helpPeople()">
+                     <img src="img/users.png" id="logo_help_people">
+                 </button>
+                 <!-- hiển thị đáp án từ khán giả trường quay -->
+                 <div id="renderHelpPeople">
+                    <ul class="listAnswer">
+                        <li id="answerA">
+                            <a href="#">A</a>
+                        </li>
+                        <li id="answerB">
+                           <a href="#">B</a>
+                        </li>
+                        <li id="answerC">
+                           <a href="#">C</a>
+                        </li>
+                        <li id="answerD">
+                           <a href="#">D</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- quyền trợ giúp gọi điện thoại về cho người thân -->
+                 <button id="help_family" onclick="helpFamily()">
+                     <img src="img/phone_icon_136322.png">
+                 </button>
+                 <div id="render_help_family">
+                     <img src="img/nguoi_than.jpg">
+                     <span id="render_answer_help_family">
+                        
+                     </span>
+                 </div>
+                 <!-- quyền trợ giúp 50/50 -->
+                 <button id="help_half" onclick="helpHalf()">
+                    <img src="img/5050-old.webp">
+                </button>
+                <!-- quyền trợ giúp hỏi người đi cùng -->
+                 <button id="help_man" onclick="helpMan()">
+                     <img src="img/man-png-icon-2.png">
+                 </button>
+                 <!-- hiển thị đáp án trợ giúp từ người thân -->
+                 <div id="render_help_man">
+                    <img src="img/man.jpg">
+                    <span id="render_answer_help_man">
+                        
+                    </span>
+                </div>
+             </div>
+         </div>
+
+         <!-- Phần Bắt đầu or chờ đợi -->
+         <div id="start_or_noStart">
+             <div class="title_start_or_noStart">
+                 Bạn đã sẵn sàng để trả lời câu hỏi chưa ?
+             </div>
+             <div class="start_or_no">
+                <button onclick="run()">SẴN SÀNG</button>
+             </div>
+         </div>
+         <!-- phần thông tin câu hỏi và trả lời -->
+         <div class="content">
+             <!-- phần price -->
+             <div id="price">
+                 
+             </div>
+             <!-- phần câu hỏi và trả lời -->
+             <div id="question_answer">
+                 <table border="5" cellspacing="10" cellpadding="0" class="QS">
+                     <tr>
+                         
+                         <td colspan="2" id="render_question">
+                            
+                         </td>
+                     </tr>
+                     <tr>
+                            <td>
+                                <button id="answer1" class="answer"></button>
+                            </td>
+                         <td>
+                            <button id="answer2" class="answer"></button>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                            <button id="answer3" class="answer"></button>
+                         </td>
+                         <td>
+                            <button id="answer4" class="answer"></button>
+                         </td>
+                     </tr>
+                 </table>
+             </div>
+             <!-- phần câu hỏi và giá tiền -->
+             <div class="countQuestion_price">
+                 <table class="list_price" border="0" cellspacing="0" cellpadding="0">
+                     <tr id="column_1" class="column">
+                         <td>1</td>
+                         <td>$ 100</td>
+                     </tr>
+                     <tr id="column_2" class="column">
+                         <td>2</td>
+                         <td>$ 200</td>
+                     </tr>
+                     <tr id="column_3" class="column">
+                         <td>3</td>
+                         <td>$ 300</td>
+                     </tr>
+                     <tr id="column_4" class="column">
+                         <td>4</td>
+                         <td>$ 500</td>
+                     </tr>
+
+                     <tr id="column_5" class="column">
+                         <td style="color:white">5</td>
+                         <td style="color:white">$ 1 000</td>
+                     </tr>
+                     <tr id="column_6" class="column">
+                        <td>6</td>
+                        <td>$ 2 000</td>
+                    </tr>
+                     <tr id="column_7" class="column">
+                         <td>7</td>
+                         <td>$ 4 000</td>
+                     </tr>
+                     <tr id="column_8" class="column">
+                         <td>8</td>
+                         <td>$ 8 000</td>
+                     </tr>
+                     <tr id="column_9" class="column">
+                         <td>9</td>
+                         <td>$ 16 000</td>
+                     </tr>
+                     <tr id="column_10" class="column">
+                        <td style="color:white">10</td>
+                        <td style="color:white">$ 32 000</td>
+                     </tr>
+                  
+                     <tr id="column_11" class="column">
+                         <td>11</td>
+                         <td>$ 64 000</td>
+                     </tr>
+                     <tr id="column_12" class="column">
+                         <td>12</td>
+                         <td>$ 125 000</td>
+                     </tr>
+                     <tr id="column_13" class="column">
+                         <td>13</td>
+                         <td>$ 250 000</td>
+                     </tr>
+                     <tr id="column_14" class="column" data="0">
+                         <td>14</td>
+                         <td>$ 500 000</td>
+                     </tr>
+                     <tr id="column_15" class="column">
+                        <td style="color:white">15</td>
+                        <td style="color:white">$ 1 000 000</td>
+                    </tr>
+                 </table>
+             </div>
+         </div>
+    </div>
+</body>
+</html>
+</body>
+</html>

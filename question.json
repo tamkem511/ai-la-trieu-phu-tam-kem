@@ -1,0 +1,141 @@
+{
+    "questionAndAnswer" : [
+        {
+            "id" : 1,
+            "question" : "Ngôn ngữ được sử dụng chinh của Vương Quốc Anh là ngôn ngữ nào sau đây ?",
+            "answer1" : "A : Tiếng Anh",
+            "answer2" : "B : Tiếng Pháp",
+            "answer3" : "C : Tiếng Mỹ",
+            "answer4" : "D : Tiếng Đức",
+            "answerTrue" : "A"
+        },
+        {
+            "id" : 2,
+            "question" : "Con cò bé bé / Nó đậu cành tre / Đi không hỏi mẹ / biết đi đường nào , là câu hát trong bài thiếu nhi nào ?",
+            "answer1" : "A : Mẹ yêu không nào",
+            "answer2" : "B : Chim mẹ và chim con",
+            "answer3" : "C : Đồng dao con cò",
+            "answer4" : "D : Cánh chim tuổi thơ",
+            "answerTrue" : "A"
+        },
+        {
+            "id" : 3,
+            "question" : "Điền từ vào chỗ trống : Mạnh vì ... ,bạo vì tiền ?",
+            "answer1" : "A : Lúa",
+            "answer2" : "B : Gạo",
+            "answer3" : "C : Xã hội",
+            "answer4" : "D : Anh em",
+            "answerTrue" : "B"
+        },
+        {
+            "id" : 4,
+            "question" : "Đâu là tên ngôi làng được đúc hoàn toàn bằng đồng tại Việt Nam ?",
+            "answer1" : "A : Chùa 1 cột",
+            "answer2" : "B : Chùa Hương",
+            "answer3" : "C : Chùa Đồng",
+            "answer4" : "D : Chùa Tam Chúc",
+            "answerTrue" : "C"
+        },
+        {
+            "id" : 5,
+            "question" : "Điền từ vào chỗ trống : Cây ngay không sợ ... ?",
+            "answer1" : "A : Thằng nào",
+            "answer2" : "B : Chết đứng",
+            "answer3" : "C : Chịu thiệt",
+            "answer4" : "D : Ai hết",
+            "answerTrue" : "B"
+        },
+        {
+            "id" : 6,
+            "question" : "Bán buôn bán lẻ là phạm trù của nghành nào ?",
+            "answer1" : "A : Thương nghiệp",
+            "answer2" : "B : Kinh doanh",
+            "answer3" : "C : Bất Động Sản",
+            "answer4" : "D : Hàng hóa",
+            "answerTrue" : "A"
+        },
+        {
+            "id" : 7,
+            "question" : "Khả năng đặc biệt có thể làm cho người khác bị mê gọi là ?",
+            "answer1" : "A : Lừa đảo",
+            "answer2" : "B : Yểm bùa",
+            "answer3" : "C : Tình yêu",
+            "answer4" : "D : Thôi miên",
+            "answerTrue" : "D"
+        },
+        {
+            "id" : 8,
+            "question" : "Trống đánh thật khỏe, đuốc lóe thật nhanh quạt khắp xa gần ,nước văng tung tóe là gì?",
+            "answer1" : "A : Tưới cây",
+            "answer2" : "B : Sấm chớp mưa",
+            "answer3" : "C : Rửa xe",
+            "answer4" : "D : Đi tắm",
+            "answerTrue" : "B"
+        },
+        {
+            "id" : 9,
+            "question" : "Đầu nhẹ bụng nặng,có hình bán nguyệt trơn tru không thể ngã là con gì ?",
+            "answer1" : "A : Con voi",
+            "answer2" : "B : Con quay",
+            "answer3" : "C : Lật Đật",
+            "answer4" : "D : Con vịt",
+            "answerTrue" : "C"
+        },
+        {
+            "id" : 10,
+            "question" : "Sau chiến tranh thế giới thứ 2, phong trào giải phóng dân tộc nổi lên mạnh ở đâu nhất ?",
+            "answer1" : "A : Châu Á",
+            "answer2" : "B : Châu Âu",
+            "answer3" : "C : Nam Mĩ",
+            "answer4" : "D : Châu Phi",
+            "answerTrue" : "D"
+        },
+        {
+            "id" : 11,
+            "question" : "Phương tiện nào sau đây ít giống với các phương tiện còn lại ?",
+            "answer1" : "A : Máy Bay",
+            "answer2" : "B : Xe máy",
+            "answer3" : "C : Xe đạp",
+            "answer4" : "D : Oto",
+            "answerTrue" : "A"
+        },
+        {
+            "id" : 12,
+            "question" : "Miền núi có các vành đai thực vật theo độ cao,phong phú nhất nước ta ?",
+            "answer1" : "A : Dãy HiMaLaya",
+            "answer2" : "B : Đèo Hải Vân",
+            "answer3" : "C : Dãy Hoàng Liên Sơn",
+            "answer4" : "D : Núi Sapa",
+            "answerTrue" : "C"
+        },
+        {
+            "id" : 13,
+            "question" : "Ủy ban nhân dân xã do ai bầu ra ?",
+            "answer1" : "A : Người có thẩm quyền",
+            "answer2" : "B : Ai cũng bầu được",
+            "answer3" : "C : Người trong nhà nước",
+            "answer4" : "D : Hội đồng nhân dân",
+            "answerTrue" : "B"
+        },
+        {
+            "id" : 14,
+            "question" : "Lần đầu tiên nước ta dùng bộc phá 1000 kg thuốc nổ đánh giặc là ở đâu ?",
+            "answer1" : "A : Lào Cai",
+            "answer2" : "B : Điện Biên Phủ",
+            "answer3" : "C : Yên Bái",
+            "answer4" : "D : Sài Gòn",
+            "answerTrue" : "B"
+        },
+        {
+            "id" : 15,
+            "question" : "Quốc kỳ nào giống hệt quốc kỳ Indonexia nhưng ngược chiều ?",
+            "answer1" : "A : Ba Lan",
+            "answer2" : "B : Pháp",
+            "answer3" : "C : Đức",
+            "answer4" : "D : Úc",
+            "answerTrue" : "A"
+        }
+    ]
+        
+    
+}

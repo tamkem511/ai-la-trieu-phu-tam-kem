@@ -1,0 +1,127 @@
+body{
+    padding:0;
+    margin: 0;
+    width:100%;
+    /* height:100px; */
+    /* background-color:red; */
+    background-image: url('img/4eb2720c14e549a39e193328071db7d1_AiLaTrieuPhu-min.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 620px;
+    position: absolute;
+}
+ul#money_down{
+    display: flex;
+    position: relative;
+    top: 30px;
+    /* width: 100%; */
+}
+#money_down li{
+    /* background-color: red; */
+    width:30px;
+    height:50px;
+    margin: 0px 90px;
+     animation: xoayvong 2s linear 0s infinite;
+    -webkit-animation: xoayvong 2s linear 0s infinite;
+    -moz-animation: xoayvong 2s linear 0s infinite;
+    -o-animation: xoayvong 2s linear 0s infinite;
+}
+
+
+
+
+
+@-webkit-keyframes xoayvong{
+    from{
+            -webkit-transform:rotate(0deg);
+            -moz-transform:rotate(0deg);
+            -o-transform:rotate(0deg);
+        }
+      to{
+            -webkit-transform:rotate(360deg);
+            -moz-transform:rotate(360deg);
+            -o-transform:rotate(360deg);
+    }
+  }
+  /* Standard syntax */ 
+  @keyframes xoayvong {
+    from{
+            -webkit-transform:rotate(0deg);
+            -moz-transform:rotate(0deg);
+            -o-transform:rotate(0deg);
+        }
+      to{
+            -webkit-transform:rotate(360deg);
+            -moz-transform:rotate(360deg);
+            -o-transform:rotate(360deg);
+    }
+  }
+ul#money_down >li{
+    list-style: none;
+    z-index: 10;
+}
+ul#money_down >li img{
+    width: 70px;
+    /* height:160px; */
+    transform:rotate(90deg)
+}
+.iconsMoneyGame{
+    position:absolute;
+    left:500px;
+    top: 160px;
+}
+.iconsMoneyGame img{
+    width:200px;
+}
+
+#money:hover {
+    animation: shake 0.5s; 
+    animation-iteration-count: infinite; 
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(5px, 5px) rotate(0deg); }
+    10% { transform: translate(-5px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(5px, -5px) rotate(1deg); }
+    50% { transform: translate(-5px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 5px) rotate(0deg); }
+    70% { transform: translate(3px, 5px) rotate(-1deg); }
+    80% { transform: translate(-5px, -5px) rotate(1deg); }
+    90% { transform: translate(5px, 2px) rotate(0deg); }
+    100% { transform: translate(5px, -2px) rotate(-1deg); }
+  }
+
+/* phân điều khiển */
+.formControl{
+    position: absolute;
+    top: 400px;
+    left:300px;
+    text-align: center;
+    width:50%;
+    height:200px;
+    /* background-color: red; */
+    border-top: 10px aqua solid;
+    border-left: 10px aqua solid;
+    border-right: 10px aqua solid;
+    display:flex;
+    justify-content:space-evenly;
+    background-color: rgb(24, 56, 163);
+    /* opacity: 0.5; */
+}
+.btn{
+    background-color:transparent;
+    border-radius: 100%;
+    width:100px;
+    height:100px;
+    border:5px solid aqua;
+    margin:50px 0px
+}
+.btn:hover{
+    cursor: pointer;
+    transform:translateY(3px)
+}
+.btn img{
+    width:80px;
+    height:50px;
+}

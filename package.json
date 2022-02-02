@@ -1,0 +1,15 @@
+{
+  "name": "game_ai_la_trieu_phu",
+  "version": "1.0.0",
+  "main": "giaoDien.js",
+  "scripts": {
+    "start":"json-server --watch question.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "description": ""
+}
